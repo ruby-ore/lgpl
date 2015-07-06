@@ -1,5 +1,9 @@
 #
+<%- if @safe_email -%>
 # Copyright (c) <%= @year %> <%= @author %> (<%= @safe_email %>)
+<%- else -%>
+# Copyright (c) <%= @year %> <%= @author %>
+<%- end -%>
 #
 # <%= @name %> is free software: you can redistribute it and/or modify
 # it under the terms of the GNU Lesser General Public License as published
