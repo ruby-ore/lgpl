@@ -3,3 +3,4 @@ disable:
 
 variables:
   license: LGPL
+  license_file: COPYING.txt
